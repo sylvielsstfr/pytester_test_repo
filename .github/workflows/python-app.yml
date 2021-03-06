@@ -50,7 +50,7 @@ jobs:
 
     - name: pytest
       id: pytest
-      uses: alexanderdamiani/pytester@v0.2.6
+      uses: alexanderdamiani/pytester@v1.0.0
       with:
         pytest-root-dir: '.'
         cov-omit-list: 'test/*, temp/main3.py, temp/main4.py'
